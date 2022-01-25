@@ -16,6 +16,4 @@ const toDoListSchema =  mongoose.Schema({
 
 })
 
-var Todo = mongoose.model('Todo',toDoListSchema);
-
-export default Todo;
+export default mongoose.model('Todo',toDoListSchema);
